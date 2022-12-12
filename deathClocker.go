@@ -16,7 +16,7 @@ func genDeathdate(x int) time.Time {
 	
 }
 
-func calculate (age int) string {
+func Calculate (age int) string {
 	deathDate:= genDeathdate(age) 
 	z:=deathDate.Format("02-Jan-2006")
 	return "Поздравляю, ты умрешь только %v!"+z
