@@ -1,4 +1,4 @@
-package main
+package deathClocker
 import (
 	"math/rand"
 	"time"
